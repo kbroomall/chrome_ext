@@ -2,7 +2,7 @@
   "name": "SMTLiD",
   "manifest_version": 2,
   "description": "Provides a toolbar with LeadiD to copy",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "permissions": [
     "activeTab",
     "<all_urls>",
