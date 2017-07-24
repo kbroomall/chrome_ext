@@ -2,13 +2,17 @@
   "name": "SMTLiD",
   "manifest_version": 2,
   "description": "Provides a toolbar with LeadiD to copy",
-  "version": "0.7.3",
+  "version": "0.7.4",
   "permissions": [
     "activeTab",
     "<all_urls>",
     "tabs"
   ],
+  "background" :{
+    "scripts" : ["background.js"]
+  },
   "browser_action": {
+    "default icon": "icon16.png",
     "default_title": "SMTLiD"
     },
   "icons": {
@@ -19,13 +23,16 @@
   "content_scripts": [
     {
       "matches": ["https://*/*", "http://*/*"],
-      "js": ["jquery-3.2.1.min.js", "content.js"],
-      "css": ["style.css"],
+      "js": ["jquery-3.2.1.min.js", "jquery-ui.js", "content.js"],
+      "css": ["jquery-ui.css", "style.css"],
       "run_at": "document_end"
     }
   ],
   "web_accessible_resources": [
     "toolbar.html",
+    "jquery-3.2.1.min.js",
+    "jquery-ui.js",
+    "jquery-ui.css",
     "style.css"
   ]
 }
