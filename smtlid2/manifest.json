@@ -23,6 +23,16 @@
   "content_scripts": [
     {
       "matches": ["https://*/*", "http://*/*"],
+      "exclude_globs":[
+        "https://mail.google.com*",
+        "https://leadid.zendesk.com*",
+        "https://app.leadid.com*",
+        "https://docs.google.com*",
+        "https://jornaya.account.box.com*",
+        "https://leadid.zendesk.com*",
+        "http://export.leadid.com*",
+        "https://leadid.atlassian.net*"
+    ],
       "js": ["jquery-3.2.1.min.js", "jquery-ui.js", "content.js"],
       "css": ["jquery-ui.css", "style.css"],
       "run_at": "document_end"
