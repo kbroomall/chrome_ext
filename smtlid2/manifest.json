@@ -2,7 +2,7 @@
   "name": "SMTLiD",
   "manifest_version": 2,
   "description": "Provides a toolbar with LeadiD to copy",
-  "version": "0.7.4",
+  "version": "0.7.5",
   "permissions": [
     "activeTab",
     "<all_urls>",
@@ -29,9 +29,18 @@
         "https://app.leadid.com*",
         "https://docs.google.com*",
         "https://jornaya.account.box.com*",
-        "https://leadid.zendesk.com*",
+        "https://automation.leadid.com*",
         "http://export.leadid.com*",
-        "https://leadid.atlassian.net*"
+        "https://leadid.atlassian.net*",
+        "https://www.expensify.com*",
+        "https://app.greenhouse.io*",
+        "https://login.salesforce.com*",
+        "https://jornaya.lightning.force.com*",
+        "https://community.box.com*",
+        "https://open.spotify.com*",
+        "https://play.spotify.com*",
+        "http://vp.leadid.com/*"
+
     ],
       "js": ["jquery-3.2.1.min.js", "jquery-ui.js", "content.js"],
       "css": ["jquery-ui.css", "style.css"],
