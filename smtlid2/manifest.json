@@ -2,7 +2,7 @@
   "name": "SMTLiD",
   "manifest_version": 2,
   "description": "Provides a toolbar with LeadiD to copy",
-  "version": "0.7.5",
+  "version": "0.7.6",
   "permissions": [
     "activeTab",
     "<all_urls>",
@@ -39,7 +39,9 @@
         "https://community.box.com*",
         "https://open.spotify.com*",
         "https://play.spotify.com*",
-        "http://vp.leadid.com/*"
+        "http://vp.leadid.com/*",
+        "https://jornaya.app.box.com*",
+        "https://*.drift.com*"
 
     ],
       "js": ["jquery-3.2.1.min.js", "jquery-ui.js", "content.js"],
