@@ -19,4 +19,4 @@ setTimeout(function(){
     var getGuid = document.getElementById("leadid_token").value + "<br><br><br><br>";
     chrome.runtime.sendMessage(getGuid);
   }
-}, 4000);
+}, 3000);

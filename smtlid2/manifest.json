@@ -2,7 +2,7 @@
   "name": "SMTLiD",
   "manifest_version": 2,
   "description": "Provides a toolbar with LeadiD to copy",
-  "version": "0.7.6",
+  "version": "0.7.7",
   "permissions": [
     "activeTab",
     "<all_urls>",
@@ -25,7 +25,12 @@
       "matches": ["https://*/*", "http://*/*"],
       "exclude_globs":[
         "https://mail.google.com*",
+        "https://calendar.google.com*",
+        "https://drive.google.com*",
+        "https://groups.google.com*",
+        "https://www.google.com/contacts*",
         "https://leadid.zendesk.com*",
+        "https://sites.google.com*",
         "https://app.leadid.com*",
         "https://docs.google.com*",
         "https://jornaya.account.box.com*",
@@ -39,8 +44,9 @@
         "https://community.box.com*",
         "https://open.spotify.com*",
         "https://play.spotify.com*",
-        "http://vp.leadid.com/*",
+        "http://vp.leadid.com*",
         "https://jornaya.app.box.com*",
+        "https://gitlab.com*",
         "https://*.drift.com*"
 
     ],
